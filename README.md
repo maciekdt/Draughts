@@ -1,2 +1,2 @@
 # Draughts
-My very old draughts game web application project
+My simple web draughts game from the childhood. Very sentimental one :)
