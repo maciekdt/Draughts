@@ -1,0 +1,42 @@
+
+<html>
+
+    <head>
+        <title>Game</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+
+
+
+    <body>
+        <div id="menuScreen" class="screen showScreen" >
+            <h1 id="menuTitle">Menu</h1>
+            <ul class="menu">
+                <li class="buttonSpace"> 
+                    <button id="singlePlayerButton" class="menuButton" data-id="1">Single Player</button></li>
+                <li class="buttonSpace"> 
+                    <button id="multiPlayerButton" class="menuButton" data-id="2">Multi Player</button></li>
+            </ul>
+        </div>
+
+
+
+
+        <div id="gameScreen" class="screen">
+            <h1 id="gameTitle">Draughts</h1>
+            <div id="divBoard">
+            </div>
+        </div>
+
+
+       
+        <script src="scripts/gameMechanic.js"> </script>
+        <script src="scripts/gameScreenControle.js"> </script>
+        <script src="scripts/menuScreen.js"> </script>
+        <script src="scripts/CPU.js"> </script>
+
+
+
+
+    </body>
+</html>
