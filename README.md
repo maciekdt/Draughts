@@ -1,2 +1,2 @@
 # Draughts
-My very old draughts web application project
+My very old draughts game web application project
